@@ -5,11 +5,16 @@ export const Button = styled.button<{ mode?: string }>`
   border-radius: 0.25rem;
 
   background-color: transparent;
-
-  font-size: 1.1rem;
 `;
 
 export const CommonButton = styled(Button)`
   width: 7.5rem;
   height: 2.5rem;
+
+  font-size: 1.1rem;
+`;
+
+export const SmallButton = styled(Button)`
+  width: 4rem;
+  height: 1.75rem;
 `;
