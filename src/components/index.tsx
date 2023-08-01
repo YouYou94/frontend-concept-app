@@ -6,3 +6,4 @@ export { SmallButton } from "./common/Button";
 
 /* Components */
 export { HomeTitle } from "./HomeTitle";
+export { HomeMenu } from "./HomeMenu";
