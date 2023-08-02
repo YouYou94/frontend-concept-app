@@ -4,10 +4,10 @@ export const HomeMenu = () => {
   return (
     <Box>
       <List>
-        <Item></Item>
-        <Item></Item>
-        <Item></Item>
-        <Item></Item>
+        <Item>HTML</Item>
+        <Item>CSS</Item>
+        <Item>Javascript</Item>
+        <Item>React</Item>
         <Item></Item>
         <Item></Item>
         <Item></Item>
@@ -49,6 +49,9 @@ const Item = styled.li`
   border: 1px solid rgb(204, 204, 204);
 
   list-style: none;
+
+  font-size: 1.1rem;
+  font-weight: bold;
 
   transition: all 0.3s ease-out;
 
