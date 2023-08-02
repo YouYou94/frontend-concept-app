@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 export const HomeTitle = () => {
   return (
     <Box>
-      <Title>Frontend Concept</Title>
+      <Title>Frontend</Title>
     </Box>
   );
 };
@@ -14,4 +14,6 @@ const Box = styled.div`
   align-items: center;
 `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+  font-size: 2.5rem;
+`;
