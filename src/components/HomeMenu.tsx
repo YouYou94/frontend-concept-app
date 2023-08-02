@@ -41,10 +41,20 @@ const Item = styled.li`
   width: 12rem;
   height: 12rem;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   border-radius: 0.5rem;
   border: 1px solid rgb(204, 204, 204);
 
   list-style: none;
 
+  transition: all 0.3s ease-out;
+
   cursor: pointer;
+
+  &:hover {
+    transform: translateY(-0.25rem);
+  }
 `;
