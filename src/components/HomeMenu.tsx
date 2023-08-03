@@ -1,13 +1,15 @@
 import { styled } from "styled-components";
 
 export const HomeMenu = () => {
+  const handleClickMenu = (menu: string) => {};
+
   return (
     <Box>
       <List>
-        <Item>HTML</Item>
-        <Item>CSS</Item>
-        <Item>Javascript</Item>
-        <Item>React</Item>
+        <Item onClick={() => handleClickMenu("html")}>HTML</Item>
+        <Item onClick={() => handleClickMenu("css")}>CSS</Item>
+        <Item onClick={() => handleClickMenu("js")}>Javascript</Item>
+        <Item onClick={() => handleClickMenu("react")}>React</Item>
         <Item></Item>
         <Item></Item>
         <Item></Item>
