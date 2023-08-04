@@ -1,7 +1,12 @@
+import { useNavigate } from "react-router-dom";
 import { styled } from "styled-components";
 
 export const HomeMenu = () => {
-  const handleClickMenu = (menu: string) => {};
+  const navigate = useNavigate();
+
+  const handleClickMenu = (menu: string) => {
+    navigate(`/${menu}`);
+  };
 
   return (
     <Box>
