@@ -8,3 +8,15 @@ export const Header = styled.header`
 
   padding: 0 2rem;
 `;
+
+export const Box = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Logo = styled.span``;
+
+export const Menu = styled.div`
+  width: 3rem;
+`;
