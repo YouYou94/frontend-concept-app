@@ -1,5 +1,11 @@
+import { Layout, TopBar } from "../components";
+
 const Home = () => {
-  return <></>;
+  return (
+    <Layout>
+      <TopBar />
+    </Layout>
+  );
 };
 
 export default Home;
