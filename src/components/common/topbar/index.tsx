@@ -1,5 +1,14 @@
-import { Header } from "./Styled";
+import { Header, Box, Logo, Menu } from "./Styled";
 
 export const TopBar = () => {
-  return <Header></Header>;
+  return (
+    <Header>
+      <Box>
+        <Logo>FECA</Logo>
+      </Box>
+      <Box>
+        <Menu></Menu>
+      </Box>
+    </Header>
+  );
 };
