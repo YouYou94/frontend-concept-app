@@ -1,4 +1,4 @@
-import { Section } from "./styled";
+import { Section } from "./Styled";
 
 export const Menu = () => {
   return <Section></Section>;
