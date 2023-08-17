@@ -1,3 +1,5 @@
+import { Section } from "./styled";
+
 export const Menu = () => {
-  return <></>;
+  return <Section></Section>;
 };
