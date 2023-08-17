@@ -15,7 +15,9 @@ export const Box = styled.div`
   align-items: center;
 `;
 
-export const Logo = styled.span``;
+export const Logo = styled.span`
+  cursor: pointer;
+`;
 
 export const Menu = styled.div`
   width: 3rem;
