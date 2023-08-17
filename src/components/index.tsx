@@ -2,6 +2,7 @@
 export { Layout } from "./common/Layout";
 
 export { TopBar } from "./common/topbar";
+export { Menu } from "./common/menu";
 
 export { CommonButton } from "./common/Button";
 export { SmallButton } from "./common/Button";
