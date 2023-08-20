@@ -10,14 +10,3 @@ const Home = () => {
 };
 
 export default Home;
-
-/*
-내일 할 일
-
-javascript
-
-typescript
-
-복습
-
-*/
