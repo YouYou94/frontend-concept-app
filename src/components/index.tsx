@@ -10,6 +10,6 @@ export { SmallButton } from "./common/Button";
 export { Title } from "./common/Title";
 export { SubTitle } from "./common/Title";
 
-export { Post } from "./common/Post";
+export { PostItem } from "./common/PostItem";
 
 /* Components */
