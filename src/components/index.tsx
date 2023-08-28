@@ -13,3 +13,4 @@ export { SubTitle } from "./common/Title";
 export { PostItem } from "./common/PostItem";
 
 /* Components */
+export { Feed } from "./feed";
