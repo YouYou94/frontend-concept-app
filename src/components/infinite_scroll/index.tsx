@@ -1,3 +1,5 @@
+import { Layout } from "./Styled";
+
 export const InfiniteScroll = () => {
-  return <></>;
+  return <Layout></Layout>;
 };
