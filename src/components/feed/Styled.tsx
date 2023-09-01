@@ -5,6 +5,8 @@ export const Layout = styled.div`
 
   display: flex;
 
+  margin: 0 3rem;
+  border-top: 1px solid rgb(204, 204, 204);
   padding: 0 3rem;
 `;
 
